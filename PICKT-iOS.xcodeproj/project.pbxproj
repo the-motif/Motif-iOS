@@ -19,7 +19,9 @@
 		D731963E308DC0B0000A72E5 /* Exceptions for "PICKT-iOS" folder in "PICKT-iOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Data/.gitkeep,
+				Presentation/.gitkeep,
+				Resources/Info.plist,
 			);
 			target = D731962B308DC0B0000A72E5 /* PICKT-iOS */;
 		};
@@ -159,7 +161,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PICKT-iOS/Info.plist";
+				INFOPLIST_FILE = "PICKT-iOS/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -191,7 +193,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PICKT-iOS/Info.plist";
+				INFOPLIST_FILE = "PICKT-iOS/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
