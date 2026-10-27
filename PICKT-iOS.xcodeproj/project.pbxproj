@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D7CC76863090CC7800D87FA1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D7CC76853090CC7800D87FA1 /* SnapKit */; };
+		D7CC76893090CC8F00D87FA1 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D7CC76883090CC8F00D87FA1 /* Then */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D731962C308DC0B0000A72E5 /* PICKT-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PICKT-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7CC76863090CC7800D87FA1 /* SnapKit in Frameworks */,
+				D7CC76893090CC8F00D87FA1 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,8 @@
 			);
 			name = "PICKT-iOS";
 			packageProductDependencies = (
+				D7CC76853090CC7800D87FA1 /* SnapKit */,
+				D7CC76883090CC8F00D87FA1 /* Then */,
 			);
 			productName = "PICKT-iOS";
 			productReference = D731962C308DC0B0000A72E5 /* PICKT-iOS.app */;
@@ -107,6 +116,10 @@
 			);
 			mainGroup = D7319623308DC0AF000A72E5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D7CC76843090CC7800D87FA1 /* XCRemoteSwiftPackageReference "snapkit" */,
+				D7CC76873090CC8F00D87FA1 /* XCRemoteSwiftPackageReference "Then" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D731962D308DC0B0000A72E5 /* Products */;
 			projectDirPath = "";
@@ -152,6 +165,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -183,6 +197,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +356,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7CC76843090CC7800D87FA1 /* XCRemoteSwiftPackageReference "snapkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/snapkit/snapkit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		D7CC76873090CC8F00D87FA1 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7CC76853090CC7800D87FA1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7CC76843090CC7800D87FA1 /* XCRemoteSwiftPackageReference "snapkit" */;
+			productName = SnapKit;
+		};
+		D7CC76883090CC8F00D87FA1 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7CC76873090CC8F00D87FA1 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D7319624308DC0B0000A72E5 /* Project object */;
 }
