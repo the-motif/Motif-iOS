@@ -12,28 +12,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D731962C308DC0B0000A72E5 /* PICKT-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PICKT-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D731962C308DC0B0000A72E5 /* Motif-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motif-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D731963E308DC0B0000A72E5 /* Exceptions for "PICKT-iOS" folder in "PICKT-iOS" target */ = {
+		D731963E308DC0B0000A72E5 /* Exceptions for "Motif-iOS" folder in "Motif-iOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Data/.gitkeep,
 				Presentation/.gitkeep,
 				Resources/Info.plist,
 			);
-			target = D731962B308DC0B0000A72E5 /* PICKT-iOS */;
+			target = D731962B308DC0B0000A72E5 /* Motif-iOS */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D731962E308DC0B0000A72E5 /* PICKT-iOS */ = {
+		D731962E308DC0B0000A72E5 /* Motif-iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				D731963E308DC0B0000A72E5 /* Exceptions for "PICKT-iOS" folder in "PICKT-iOS" target */,
+				D731963E308DC0B0000A72E5 /* Exceptions for "Motif-iOS" folder in "Motif-iOS" target */,
 			);
-			path = "PICKT-iOS";
+			path = "Motif-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -54,7 +54,7 @@
 		D7319623308DC0AF000A72E5 = {
 			isa = PBXGroup;
 			children = (
-				D731962E308DC0B0000A72E5 /* PICKT-iOS */,
+				D731962E308DC0B0000A72E5 /* Motif-iOS */,
 				D731962D308DC0B0000A72E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,7 +62,7 @@
 		D731962D308DC0B0000A72E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D731962C308DC0B0000A72E5 /* PICKT-iOS.app */,
+				D731962C308DC0B0000A72E5 /* Motif-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D731962B308DC0B0000A72E5 /* PICKT-iOS */ = {
+		D731962B308DC0B0000A72E5 /* Motif-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D731963F308DC0B0000A72E5 /* Build configuration list for PBXNativeTarget "PICKT-iOS" */;
+			buildConfigurationList = D731963F308DC0B0000A72E5 /* Build configuration list for PBXNativeTarget "Motif-iOS" */;
 			buildPhases = (
 				D7319628308DC0B0000A72E5 /* Sources */,
 				D7319629308DC0B0000A72E5 /* Frameworks */,
@@ -83,15 +83,15 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D731962E308DC0B0000A72E5 /* PICKT-iOS */,
+				D731962E308DC0B0000A72E5 /* Motif-iOS */,
 			);
-			name = "PICKT-iOS";
+			name = "Motif-iOS";
 			packageProductDependencies = (
 				D7CC76853090CC7800D87FA1 /* SnapKit */,
 				D7CC76883090CC8F00D87FA1 /* Then */,
 			);
 			productName = "PICKT-iOS";
-			productReference = D731962C308DC0B0000A72E5 /* PICKT-iOS.app */;
+			productReference = D731962C308DC0B0000A72E5 /* Motif-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D7319627308DC0B0000A72E5 /* Build configuration list for PBXProject "PICKT-iOS" */;
+			buildConfigurationList = D7319627308DC0B0000A72E5 /* Build configuration list for PBXProject "Motif-iOS" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D731962B308DC0B0000A72E5 /* PICKT-iOS */,
+				D731962B308DC0B0000A72E5 /* Motif-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -161,7 +161,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PICKT-iOS/Resources/Info.plist";
+				INFOPLIST_FILE = "Motif-iOS/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -173,7 +173,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PICKT-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MOTIF-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -193,7 +193,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PICKT-iOS/Resources/Info.plist";
+				INFOPLIST_FILE = "Motif-iOS/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -205,7 +205,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PICKT-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MOTIF-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D7319627308DC0B0000A72E5 /* Build configuration list for PBXProject "PICKT-iOS" */ = {
+		D7319627308DC0B0000A72E5 /* Build configuration list for PBXProject "Motif-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D7319642308DC0B0000A72E5 /* Debug */,
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D731963F308DC0B0000A72E5 /* Build configuration list for PBXNativeTarget "PICKT-iOS" */ = {
+		D731963F308DC0B0000A72E5 /* Build configuration list for PBXNativeTarget "Motif-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D7319640308DC0B0000A72E5 /* Debug */,
