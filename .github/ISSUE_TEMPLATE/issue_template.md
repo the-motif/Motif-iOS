@@ -1,3 +1,10 @@
+---
+name: "작업 이슈"
+about: "새로운 작업을 등록합니다."
+title: ""
+labels: []
+assignees: []
+---
 
 ## 📝 작업 내용
 
