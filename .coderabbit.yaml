@@ -1,0 +1,17 @@
+reviews:
+  profile: "chill"               # "chill" | "assertive" 코멘트 강도
+  request_changes_workflow: false # true면 리뷰 결과를 PR Approval/Request Changes로 표시
+  high_level_summary: true        # PR 요약 생성
+  poem: false                     # 마무리 시(詩) 생성. 즐거우시면 true :)
+  review_status: true             # 리뷰 상태 코멘트 표시
+  auto_review:
+    enabled: true                 # PR이 열릴 때 자동 리뷰
+    drafts: false                 # 드래프트 PR도 리뷰할지
+    base_branches:
+      - main
+      - develop
+  ignore_usernames:
+    - "dependabot[bot]"           # 봇 PR은 무시
+  ignore_titles:
+    - "^chore: release"           # 릴리스 PR 무시
+  sequence_diagrams: true         # 변경 흐름을 다이어그램으로 시각화
