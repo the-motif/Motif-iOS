@@ -24,7 +24,7 @@ enum AppColor {
     }
     
     enum Surface {
-        static let blue = UIColor(resource: .Surface.card)
+        static let card = UIColor(resource: .Surface.card)
     }
     
     enum Text {
