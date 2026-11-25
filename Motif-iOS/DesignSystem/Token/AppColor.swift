@@ -15,6 +15,7 @@ enum AppColor {
     
     enum Border {
         static let subtle = UIColor(resource: .Border.subtle)
+        static let strong = UIColor(resource: .Border.strong)
     }
     
     enum Brand {
@@ -25,11 +26,14 @@ enum AppColor {
     
     enum Surface {
         static let card = UIColor(resource: .Surface.card)
+        static let placeholder = UIColor(resource: .Surface.placeholder)
     }
     
     enum Text {
         static let primary = UIColor(resource: .Text.primary)
         static let secondary = UIColor(resource: .Text.secondary)
+        static let tertiary = UIColor(resource: .Text.tertiary)
+        static let disabled = UIColor(resource: .Text.disabled)
     }
         
 }
